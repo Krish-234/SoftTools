@@ -1,0 +1,75 @@
+.app_Navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(237, 237, 237, 1);
+    padding: 1rem 7rem;
+}
+
+.app_Navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.app_Navbar-logo img{
+    width: 112.28px;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.app_Navbar-logo h1{
+    font-size: 45px;
+    color: #171A1F;
+    cursor: pointer;
+}
+
+.app_Navbar-link{
+display: flex;
+flex:1;
+align-items: center;
+justify-content: center;
+list-style: none;
+}
+
+.app_Navbar-link a{
+    text-decoration: none;
+    color:#171A1F;
+}
+
+.app_Navbar-link li{
+    font-size: 20px;
+    padding: 0 2rem;
+}
+
+.app_Navbar-loginside{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.app_Navbar-signup{
+    height: 45px;
+    width: 120px;
+    background-color: rgba(237, 237, 237, 1);
+    border: 0.2px #171A1F solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.app_Navbar-space{
+    padding: 0 1rem;
+}
+
+.app_Navbar-login{
+    height: 45px;
+    width: 160px;
+    background-color: #3164F4;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
