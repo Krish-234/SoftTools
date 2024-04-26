@@ -29,6 +29,7 @@
 
 .app_review-pic img{
     position: absolute;
+    z-index: 0;
 }
 
 .app_review-cust{

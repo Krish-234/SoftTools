@@ -5,6 +5,7 @@
     padding: 7.8rem 15rem;
     background-color: #CFD9F4;
     color:#171A1F;
+    z-index: 5;
 }
 
 .app_header-info{
