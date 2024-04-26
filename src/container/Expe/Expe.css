@@ -1,0 +1,42 @@
+.app_Expe{
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color: #3164F4;
+    color: white;
+}
+
+.app_Expe-feature img{
+    margin-left: 10rem;
+}
+
+.app_Expe-main{
+    width: 550px;
+}
+
+.app_Expe-main h1{
+    font-size: 55px;
+}
+
+.app_Expe-main p:first-child{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.app_Expe-main p:last-child{
+    font-size: 22px;
+    color: grey;
+}
+
+.app_Expe-main h1{
+    margin-bottom: 35px;
+}
+
+.app_Expe-btn{
+    background-color: #171A1F;
+    color: white;
+    padding: 1rem 5rem;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 5px;
+}

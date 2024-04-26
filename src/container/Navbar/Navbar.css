@@ -4,6 +4,7 @@
     flex-direction: row;
     background-color: #EDEDED;
     padding: 1rem 7rem;
+    color:#171A1F;
 }
 
 .app_Navbar-logo{
@@ -51,7 +52,7 @@ list-style: none;
 .app_Navbar-signup{
     height: 45px;
     width: 120px;
-    background-color: rgba(237, 237, 237, 1);
+    background-color: #ededed;
     border: 0.2px #171A1F solid;
     border-radius: 10px;
     cursor: pointer;

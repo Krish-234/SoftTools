@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
         <ul className='app_Navbar-link'>
             <li> <a href="#Home">Home</a></li>
-            <li> <a href="#SDLC Tools">SDLC Tools</a></li>
+            <li> <a href="#SDLC Phases">SDLC Phases</a></li>
             <li> <a href="#About us">About us</a></li>
             <li> <a href="#contact us">contact us</a></li>
         </ul>
