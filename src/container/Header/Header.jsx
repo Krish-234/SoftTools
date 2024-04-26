@@ -17,6 +17,7 @@ const Header = () => {
         <img src={headerImg} alt="img"/>
       </div>
     </div>
+    <div className='space'></div>
   </>
   )
 }

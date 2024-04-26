@@ -1,32 +1,30 @@
-.app_info{
+.app_info2{
     padding: 10rem 10rem 0 10rem;
     display: flex;
     justify-content: center;
     background-color: rgba(243, 228, 228, 0.944);
 }
 
-.app_info-feature img{
-    margin-right: 10rem;
-}
 
-.app_info-main{
+.app_info-main2{
+    margin-right: 10rem;
     width: 550px;
 }
 
-.app_info-main h1{
-    font-size: 55px;
+.app_info-main2 h1{
+    font-size: 40px;
 }
 
-.app_info-main p:first-child{
+.app_info-main2 p:first-child{
     margin-bottom: 15px;
     font-size: 20px;
 }
 
-.app_info-main p:last-child{
+.app_info-main2 p:last-child{
     font-size: 22px;
     color: grey;
 }
 
-.app_info-main h1{
+.app_info-main2 h1{
     margin-bottom: 35px;
 }
