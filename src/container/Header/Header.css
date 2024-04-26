@@ -1,0 +1,42 @@
+.app_header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15.8rem 15rem;
+    background-color: #CFD9F4;
+}
+
+.app_header-info{
+    width: 100%;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app_header-info h1{
+
+    margin: 0;
+    line-height: 50px;
+    font-size: 55px;
+}
+
+.app_header-info p{
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.started-btn{
+    height: 45px;
+    width: 290px;
+    background-color: #3164F4;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.app_header-img{
+    width: 30%;
+}
