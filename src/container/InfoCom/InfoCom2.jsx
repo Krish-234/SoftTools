@@ -1,5 +1,5 @@
 import React from 'react'
-import './Infocom2.css';
+import './InfoCom2.css';
 
 const InfoCom2 = ({ title, text, img }) => {
     return (
