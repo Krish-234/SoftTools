@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar , Header , InfoCom , InfoCom2 , Review} from './container/index/index.js'
-import {analysis,coding,design} from './image.js';
+import { analysis,coding,design } from './image.js';
 
 import './App.css'
 

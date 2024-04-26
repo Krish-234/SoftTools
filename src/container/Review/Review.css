@@ -1,0 +1,50 @@
+
+.app_review{
+    background-color: rgba(243, 228, 228, 0.944);
+    padding: 10rem 15rem 10rem 20rem;
+    color: #171A1F;
+}
+
+.app_review-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.app_review-heading h1{
+ font-size: 45px;  
+}
+
+.app_review-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app_review-cust{
+    width: 295px;
+    background-color: white;
+}
+
+.app_review-pic img{
+    position: absolute;
+}
+
+.app_review-cust{
+    margin-top: 55px;
+    padding-right: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.app_review-cust p{
+    padding-bottom: 25px;
+    padding-top: 60px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #171A1F;
+}
+
+
+
