@@ -5,6 +5,8 @@
     background-color: #EDEDED;
     padding: 1rem 7rem;
     color:#171A1F;
+    width:100%;
+    position: fixed;
 }
 
 .app_Navbar-logo{
@@ -27,7 +29,7 @@
 
 .app_Navbar-link{
 display: flex;
-flex:1;
+flex:0.85;
 align-items: center;
 justify-content: center;
 list-style: none;
