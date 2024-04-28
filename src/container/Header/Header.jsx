@@ -8,6 +8,7 @@ const Header = () => {
   return (
     <>
     <div className='app_header'>
+      <div className='app_header-container'>
       <div className='app_header-info'>
         <h1>Welcome to the SoftTools</h1>
         <p>Your one-stop solution for all software testing tools used in Secure Software <br /> Development Life Cycle (SSDLC).</p>
@@ -17,7 +18,7 @@ const Header = () => {
         <img src={headerImg} alt="img"/>
       </div>
     </div>
-    <div className='space'></div>
+    </div>
   </>
   )
 }

@@ -4,7 +4,7 @@ import InfoCom from "../InfoCom/InfoCom";
 import InfoCom2 from "../InfoCom/InfoCom2";
 import Review from "../Review/Review";
 import Footer from "../Footer/Footer";
-import Expe from "../Expe/Expe"
+import Expe from "../Expe/Expe";
 
     export {Navbar,
             Header,
