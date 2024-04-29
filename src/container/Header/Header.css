@@ -44,6 +44,11 @@
     cursor: pointer;
 }
 
+.started-btn:hover{
+    animation: ease 0.5s;
+    background-color: #308df7;
+}
+
 .app_header-img img{
     width: 100%;
     height: 100%;

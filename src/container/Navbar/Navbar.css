@@ -46,6 +46,11 @@ list-style: none;
     padding: 0 2rem;
 }
 
+.app_Navbar-link a:hover{
+animation: 0.5s ease;
+color: gray;
+}
+
 .app_Navbar-loginside{
     display: flex;
     justify-content: flex-end;
@@ -62,6 +67,13 @@ list-style: none;
     cursor: pointer;
 }
 
+.app_Navbar-signup:hover{
+    animation: ease 2s;
+    color:white;
+    background-color: #308df7;
+    border:none;
+}
+
 .app_Navbar-space{
     padding: 0 1rem;
 }
@@ -74,6 +86,11 @@ list-style: none;
     border-radius: 10px;
     color: white;
     cursor: pointer;
+}
+
+.app_Navbar-login:hover{
+    animation: ease 0.5s;
+    background-color: #308df7;
 }
 
 

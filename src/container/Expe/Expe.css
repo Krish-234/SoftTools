@@ -40,3 +40,9 @@
     margin-top: 2rem;
     border-radius: 5px;
 }
+
+.app_Expe-btn:hover{
+    animation: ease 0.5s;
+    background-color: white;
+    color: #171A1F;
+}

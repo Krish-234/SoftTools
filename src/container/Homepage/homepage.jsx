@@ -7,7 +7,7 @@ const homepage = () => {
 
   return (
     <>
-    <div id="home">
+    <div id="Home">
      <Header />
      <InfoCom img={analysis} title="Analysis" text = 'We offer a comprehensive range of testing services, including test design, test automation,and test management. Our streamlined approach to testing enables us to deliver high-quality results without unnecessary complexity or confusion.' />
      <InfoCom2 img={design} title="Design" text = "Our streamlined approach to testing enables us to deliver high-quality results without unnecessary complexity or confusion. We focus on what's important, and our clients appreciate the efficiency and effectiveness of our services." />

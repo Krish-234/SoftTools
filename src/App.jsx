@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Homepage from './container/Homepage/homepage'
+import {Homepage, SDLCphases } from './container/main'
 import { Navbar ,Footer } from './container/index'
-// import SDLCphases from './container/SDLC Phases/SDLCphases'
 
+import './App.css'
 
 function App() {
 
@@ -14,8 +14,8 @@ function App() {
       <Routes>
         {/* Set up individual routes using Route */}
         <Route path="/" element={<Homepage />} />
-        {/* <Route path="/Home" element={<Homepage />} /> */}
-         {/* <Route path="/SDLC phases" element={<SDlCphases />} /> */}
+        <Route path="/Home" element={<Homepage />} />
+         <Route path="/Phases" element={<SDLCphases />} />
         {/*<Route path="/contact" element={<Contact />} /> */}
         {/* Handle 404 - Not Found */}
         {/* <Route path="*" element={<NotFound />} /> */}

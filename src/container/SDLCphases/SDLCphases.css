@@ -1,0 +1,26 @@
+.app_phases{
+    padding-top: 6.2rem;
+    /* margin-bottom: 5rem; */
+    margin-bottom: 5.7rem;
+}
+
+.app_phases-img img{
+    width: 100%;
+    height: 92vh;
+}
+
+.app_phases-container{
+    padding: 2rem 12rem;
+}
+
+.app_phases-comp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    margin-bottom: 3rem;
+}
+
+.space2{
+    margin-bottom: 8rem;
+}

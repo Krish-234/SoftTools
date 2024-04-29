@@ -10,10 +10,10 @@ const Navbar = () => {
             <h1>SoftTools</h1>
         </div>
         <ul className='app_Navbar-link'>
-            <li> <a href="#Home">Home</a></li>
-            <li> <a href="#SDLC Phases">SDLC Phases</a></li>
-            <li> <a href="#About us">About us</a></li>
-            <li> <a href="#contact us">contact us</a></li>
+            <li> <a href="Home">Home</a></li>
+            <li> <a href="Phases">SDLC Phases</a></li>
+            <li> <a href="AboutUs">About us</a></li>
+            <li> <a href="contactUs">contact us</a></li>
         </ul>
 
         <div className='app_Navbar-loginside'>

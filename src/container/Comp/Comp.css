@@ -1,0 +1,38 @@
+.app_comp{
+    border: 0.5px solid hsla(0, 0%, 33%, 0.221);
+    padding: 2rem 0;
+    border-radius: 5px;
+    color: #171A1F;
+}
+
+.app_comp-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_comp-img img{
+    width:80%;
+}
+
+.app_comp-text h2{
+    padding-bottom: 1rem;
+    padding-left: 3.5rem;
+}
+.app_comp-text button{
+   padding: 1rem 3.5rem;
+   background-color: white;
+   border: 1px solid hsla(0, 0%, 33%, 0.221);
+   border-radius: 5px;
+   margin-bottom: 1rem;
+   font-size: 13px;
+   color: #171A1F;
+   margin-left: 3.5rem;
+}
+
+.app_comp-text button:hover{
+    background-color: #3164F4;
+    color: white;
+    animation: 0.5s ease;
+    border: none;
+}
