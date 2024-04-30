@@ -14,8 +14,8 @@ function App() {
       <Routes>
         {/* Set up individual routes using Route */}
         <Route path="/" element={<Homepage />} />
-        <Route path="/Home" element={<Homepage />} />
-         <Route path="/Phases" element={<SDLCphases />} />
+        <Route path="/home" element={<Homepage />} />
+         <Route path="/phases" element={<SDLCphases />} />
         {/*<Route path="/contact" element={<Contact />} /> */}
         {/* Handle 404 - Not Found */}
         {/* <Route path="*" element={<NotFound />} /> */}
