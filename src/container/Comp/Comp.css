@@ -5,9 +5,15 @@
     color: #171A1F;
 }
 
+.app_comp-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
 .app_comp-img{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -15,9 +21,12 @@
     width:80%;
 }
 
+.app_comp-text{
+    padding: 1rem 2.6rem;
+}
+
 .app_comp-text h2{
     padding-bottom: 1rem;
-    padding-left: 3.5rem;
 }
 .app_comp-text button{
    padding: 1rem 3.5rem;
@@ -27,7 +36,6 @@
    margin-bottom: 1rem;
    font-size: 13px;
    color: #171A1F;
-   margin-left: 3.5rem;
 }
 
 .app_comp-text button:hover{
