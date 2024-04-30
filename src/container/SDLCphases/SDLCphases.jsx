@@ -22,7 +22,6 @@ const SDLCphases = () => {
         <Comp img={Deployment} title = "Deployment"/>
         <Comp img={Maintenance} title = "Maintenance"/>
         </div>
-        <div className='space2'></div>
       </div>
       
     </div>
