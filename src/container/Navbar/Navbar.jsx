@@ -10,9 +10,9 @@ const Navbar = () => {
             <h1>SoftTools</h1>
         </div>
         <ul className='app_Navbar-link'>
-            <li> <a href="Home">Home</a></li>
-            <li> <a href="Phases">SDLC Phases</a></li>
-            <li> <a href="AboutUs">About us</a></li>
+            <li> <a href="home">Home</a></li>
+            <li> <a href="phases">SDLC Phases</a></li>
+            <li> <a href="aboutUs">About us</a></li>
             <li> <a href="contactUs">contact us</a></li>
         </ul>
 

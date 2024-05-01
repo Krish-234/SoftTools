@@ -93,5 +93,20 @@ color: gray;
     background-color: #308df7;
 }
 
+@media screen and (Max-width:1400px) {
+    .app_Navbar{
+    display:flex;
+    }
+}   
+
+@media screen and (Max-width:1300px) {
+    .app_Navbar-link{
+        display: none;
+    }
+
+    .app_Navbar{
+        padding: 1rem 2rem;
+    }
+}
 
 
