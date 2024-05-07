@@ -1,6 +1,6 @@
 import React from 'react'
 import { customer1 ,customer2 ,customer3, Larrow, Rarrow } from '../../image'
-
+import CustomerReview from './CustomerReview.jsx'
 import './Review.css'
 
 const Review = () => {
@@ -14,44 +14,19 @@ const Review = () => {
         </div>
       </div>
       <div className='app_review-main'> 
-      <div className='app_review-pic'>
-      <img src={customer1} alt="pic" />
-        <div className='app_review-cust'>
-          <p>
-            I has completely transformed the way I approach my design projects. The tool's ability to generate unique and innovative designs is simply mind-boggling.
-          </p>
-          <p>
-            Elizabeth Taylor <br />
-            Product Manager
-          </p>
-        </div>
-        </div>
+     
+        <CustomerReview img={customer1}
+         review="I has completely transformed the way I approach my design projects. The tool's ability to generate unique and innovative designs is simply mind-boggling." 
+         Cname = "Elizabeth Taylor" position="Product Manager"/>
 
-        <div className='app_review-pic'>
-        <img src={customer2} alt="pic" />
-        <div className='app_review-cust'>
-          <p>
-          I appreciate the flexibility it provides, allowing me to adjust parameters and fine-tune the generated designs to meet my specific requirements..
-          </p>
-          <p>
-          Ashley Watson <br />
-          Product Designer
-         </p>
-        </div>
-        </div>
-        
-        <div className='app_review-pic'>
-        <img src={customer3} alt="pic" />
-        <div className='app_review-cust'>
-          <p>
-          The AI tool's speed and efficiency are impressive. It rapidly generates multiple design options, saving me valuable time and effort in the ideation phase.
-          </p>
-          <p>
-          Caleb Jones <br />
-              CEO
-          </p>
-        </div>
-        </div>
+        <CustomerReview img={customer2}
+                  review="I appreciate the flexibility it provides, allowing me to adjust parameters and fine-tune the generated designs to meet my specific requirements." 
+                  Cname = "Ashley Watson" position="Product Designer"/>
+
+        <CustomerReview img={customer3}
+                  review="The AI tool's speed and efficiency are impressive. It rapidly generates multiple design options, saving me valuable time and effort in the ideation phase." 
+                  Cname = "Caleb Jones" position="CEO"/>
+
       </div>
     </div>
   )

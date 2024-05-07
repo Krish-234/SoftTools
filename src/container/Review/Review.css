@@ -1,7 +1,7 @@
 
 .app_review{
     background-color: rgba(243, 228, 228, 0.944);
-    padding: 10rem 15rem 10rem 20rem;
+    padding: 7.8rem 11rem;
     color: #171A1F;
 }
 
@@ -47,5 +47,28 @@
     color: #171A1F;
 }
 
+@media screen and (Max-width:1250px) {
+    .app_review-main{
+        justify-content: center;
+    }   
+}
+
+@media screen and (Max-width:1000px) {
+
+    .app_review-main{
+        flex-direction: column;
+    }
+}
+
+@media screen and (Max-width:650px) {
+
+    .app_review-main{
+        flex-direction: column;
+    }
+
+    .app_review{
+        padding: 0;
+    }
+}
 
 
