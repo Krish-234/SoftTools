@@ -112,6 +112,7 @@ color: gray;
 
     .app_Navbar-logo h1{
         font-size: 2rem;
+        margin-right: 1rem;
     }
 
     .app_Navbar-logo {
@@ -138,17 +139,19 @@ color: gray;
 }
 
 @media screen and (Max-width:450px) {
-    
+    .app_Navbar{
+        padding: 1rem 0;
+    }
+
     .app_Navbar-space{
         margin: 0 0.2rem;
     }
 
     .app_Navbar-login,.app_Navbar-signup{
         height: 45px;
-        width: 70px;
+        width: 60px;
     }
-
 }
-    
+
 
 
