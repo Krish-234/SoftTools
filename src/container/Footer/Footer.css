@@ -18,7 +18,7 @@
 }
 
 .app_Footer-link li{
-    padding: 1rem 0;
+    margin: 1rem 0;
 }
 
 
@@ -35,3 +35,20 @@
 
 }
 
+@media screen and (max-width:785px) {
+    .app_Footer{
+        padding: 1rem 3rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .app_Footer{
+        padding: 0;
+    }
+    .app_Footer-link a{
+        font-size: 15px;
+    }
+    .app_Footer-link li{
+        margin: 0.2rem 0;
+    }
+}
