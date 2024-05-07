@@ -119,6 +119,37 @@ color: gray;
         width: 80px;
         border-radius: 40px;
     }
+    .app_Navbar-logo h1{
+        font-size: 1.6rem;
+    }
+
+    .app_Navbar-logo img{
+        width: 3.4rem;
+    }
+
+    .app_Navbar-space{
+        margin: 0 0.4rem;
+    }
+
+}
+
+@media screen and (Max-width:450px) {
+    
+    .app_Navbar-logo h1{
+        font-size: 1.6rem;
+    }
+
+    .app_Navbar-logo img{
+        width: 3.4rem;
+    }
+
+    .app_Navbar{
+        padding: 1rem 2rem;
+    }
+
+    .app_Navbar-space{
+        margin: 0 0.2rem;
+    }
 
 }
     
