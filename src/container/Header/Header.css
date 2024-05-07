@@ -1,5 +1,5 @@
 .app_header{
-    padding: 7.8rem 15rem;
+    padding: 7.8rem 11rem;
     background-color: #CFD9F4;
     color:#171A1F;
     z-index: 5;
@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 75vh;
     gap: 50px;
 }
 
@@ -26,14 +25,13 @@
 }
 
 .app_header-info h1{
-
     margin: 0;
     line-height: 50px;
     font-size: 60px;
 }
 
 .app_header-info p{
-    padding-bottom: 40px;
+    margin-bottom: 45px;
     font-size: 21px;
 }
 
@@ -52,12 +50,54 @@
     background-color: #308df7;
 }
 
-/* .app_header-img img{
-    width: 100%;
-    height: 100%;
-} */
+.app_header-img {
+    flex:1;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app_header-img img{
+    width: 85%;
+}
 
 .space{
     padding-bottom: 18rem;
     background-color: rgba(243, 228, 228, 0.944);
 }
+
+@media screen and (Max-width:1250px) {
+    .app_header-info h1{
+        font-size: 53px;
+    }
+    
+    .app_header-info p{
+        font-size: 18px;
+    }
+
+    .app_header-img img{
+        width: 100%;
+    }
+
+    .started-btn{
+        align-self: center;
+    }
+
+    .app_header{
+        flex-direction: column;
+        padding: 7.8rem 6rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .app_header-img img{
+        width:70%;
+    }
+
+    .app_header-info h1{
+        font-size: 50px;
+    }
+    
+    .app_header-info p{
+        font-size: 16px;
+    }
+} 
