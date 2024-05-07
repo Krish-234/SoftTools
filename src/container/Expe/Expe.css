@@ -1,21 +1,31 @@
 .app_Expe{
-    padding: 10rem;
+    padding: 7.8rem 11rem;
     display: flex;
     justify-content: center;
     background-color: #3164F4;
     color: white;
 }
 
-.app_Expe-feature img{
-    margin-left: 10rem;
-}
+ .app_Expe-feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+  
+
 
 .app_Expe-main{
-    width: 550px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex:1;
 }
 
 .app_Expe-main h1{
     font-size: 55px;
+    margin-bottom: 35px;
 }
 
 .app_Expe-main p:first-child{
@@ -28,9 +38,6 @@
     color: grey;
 }
 
-.app_Expe-main h1{
-    margin-bottom: 35px;
-}
 
 .app_Expe-btn{
     background-color: #171A1F;
@@ -46,3 +53,50 @@
     background-color: white;
     color: #171A1F;
 }
+
+@media screen and (Max-width:1250px) {
+    .app_Expe-main h1{
+        font-size: 45px;
+    }
+    
+    .app_Expe-main p{
+        font-size: 20px;
+    }
+
+    .app_Expe-btn{
+        margin-bottom: 3rem;
+    }
+    
+
+    .app_Expe-feature img{
+        width: 50%;
+    }
+
+    .app_Expe-btn{
+        align-self: center;
+    }
+
+    .app_Expe{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .app_Expe-feature{
+        display: none;
+    }
+} 
+
+@media screen and (max-width:550px) {
+    .app_Expe-feature img{
+        width:70%;
+    }
+
+    .app_Expe-main h1{
+        font-size: 40px;
+    }
+    
+    .app_Expe-main p{
+        font-size: 16px;
+    }
+} 
