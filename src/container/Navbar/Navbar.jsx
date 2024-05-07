@@ -13,11 +13,11 @@ const Navbar = () => {
             <li> <a href="home">Home</a></li>
             <li> <a href="phases">SDLC Phases</a></li>
             <li> <a href="aboutUs">About us</a></li>
-            <li> <a href="contactUs">contact us</a></li>
+            <li> <a href="contactUs">Contact us</a></li>
         </ul>
 
         <div className='app_Navbar-loginside'>
-            <button className='app_Navbar-signup'>sign up</button>
+            <button className='app_Navbar-signup'>Sign up</button>
             <div className='app_Navbar-space'></div>
             <button className='app_Navbar-login'>Login</button>
         </div>

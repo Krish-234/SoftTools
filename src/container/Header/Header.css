@@ -3,12 +3,15 @@
     background-color: #CFD9F4;
     color:#171A1F;
     z-index: 5;
+
+    min-height: 100vh;
 }
 
 .app_header-container{
+    flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 75vh;
     gap: 50px;
 }
@@ -49,10 +52,10 @@
     background-color: #308df7;
 }
 
-.app_header-img img{
+/* .app_header-img img{
     width: 100%;
     height: 100%;
-}
+} */
 
 .space{
     padding-bottom: 18rem;
