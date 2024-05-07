@@ -101,3 +101,16 @@
         font-size: 16px;
     }
 } 
+
+@media screen and (max-width:450px) {
+    
+    .app_header-img img{
+        display: none;
+    }
+
+    .app_header{
+        flex-direction: column;
+        padding: 7.8rem 6rem;
+        min-height:72vh;
+    }
+} 
